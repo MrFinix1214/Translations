@@ -1,0 +1,360 @@
+# Language: ru
+
+msg-shop-type-admin-regular: "Магазин для администраторов"
+msg-shop-type-sold: "Магазин-продажа"
+msg-shop-type-buy: "Магазин покупок"
+msg-shop-type-trading: "Бартерный магазин"
+msg-shop-type-book: "Книжный магазин"
+
+msg-shop-type-desc-admin-regular: "неограниченный запас"
+msg-shop-type-desc-elling: "продает предметы игрокам"
+msg-shop-type-desc-buy: "покупает предметы у игроков"
+msg-shop-type-desc-trading: "торгует предметами с игроками"
+msg-shop-type-desc-book: "продает копии книги"
+
+msg-shop-object-type-living: "{type}"
+msg-shop-object-type-sign: "знак"
+msg-shop-object-type-npc: "npc"
+
+msg-selected-shop-type: "&aВыбранный тип магазина: &6 {type} &7 ({description})"
+msg-selected-shop-object-type: "&aВыбранный тип объекта: &6 {тип}"
+
+msg-creation-item-selected: |-
+  &aСоздание магазина:
+  &e Щелкните левой / правой кнопкой мыши, чтобы выбрать тип магазина
+  &e Скрытность + щелчок левой / правой кнопкой мыши для выбора типа объекта
+  &e Щелкните на ячейку правой кнопкой мыши, чтобы выбрать его
+  &e Затем щелкните по блоку правой кнопкой мыши, чтобы разместить продавца
+
+msg-button-previous-page: "&6 <- Предыдущая страница ({prev_page} из {max_page})"
+msg-button-previous-page-lore: []
+msg-button-next-page: "&6Следующая страница ({next_page} из {max_page})->"
+msg-button-next-page-lore: []
+msg-button-current-page: "&6Страница {page} из {max_page}"
+msg-button-current-page-lore: []
+
+msg-button-name: "&aУстановить название магазина"
+msg-button-name-lore:
+- Позволяет переименовать
+- вашего лавочника
+msg-button-container: "&aПосмотреть инвентарь магазина"
+msg-button-container-lore:
+- Позволяет просматривать инвентарь
+- что использует ваш продавец
+msg-button-delete: "&4Удалить"
+msg-button-delete-lore:
+- закрывает и снимает
+- этого лавочника
+msg-button-hire: "&aАренда"
+msg-button-hire-lore:
+- Взять в аренду эту лавку
+
+msg-button-sign-variant: "&aВыбрать вариант знака"
+msg-button-sign-variant-lore:
+- "Меняет знак"
+- "Вид дерева"
+msg-button-baby: "&aВозраст продавца"
+msg-button-baby-lore:
+- "Переключение между возрастом:"
+- "детский и взрослый вариант"
+msg-button-sitting: "&aПереключить позу сидя"
+msg-button-sitting-lore:
+- "Переключает позу"
+msg-button-cat-variant: "&aВыбрать вариант кошки"
+msg-button-cat-вариант-lore:
+- "Меняет кошачий облик"
+msg-button-rabbit-variant: "&aВыбрать вариант кролика"
+msg-button-rabbit-вариант-lore:
+- "Меняет внешний вид кролика"
+msg-button-collar-color: "&aВыбрать цвет воротника"
+msg-кнопка-collar-color-lore:
+- "Меняет воротник"
+- "цвет воротника"
+msg-button-wolf-angry: "&aВыбрать вариант злого волка"
+msg-button-wolf-angry-lore:
+- "Включает волчье"
+- "гневное состояние"
+msg-button-carry-chess: "&aВыбрать вариант перевозчика"
+msg-button-carrying-chest-lore:
+- "Переносит ли"
+- "он хранилище"
+msg-button-horse-color: "&aВыбрать цвет лошади"
+msg-button-horse-color-lore:
+- "Меняет цвет"
+- "коня"
+msg-button-horse-style: "&aВыбрать стиль лошади"
+msg-button-horse-style-lore:
+- "Меняет рисунок шерсти"
+- "коня"
+msg-button-horse-armor: "&aВыбрать броню для лошади"
+msg-button-лошадь-броня-lore:
+- "Меняет броню"
+- "коня"
+msg-button-llama-variant: "&aВыбрать вариант ламы"
+msg-button-llama-variant-lore:
+- "Меняет внешний вид ламы"
+msg-button-llama-carpet-color: "&aЦвет ковра ламы"
+msg-button-llama-carpet-color-lore:
+- "Меняет ламы"
+- "цвет ковра"
+msg-button-creeper-loaded: "&aВыбрать вариант заряженного крипера"
+msg-button-creeper-charge-lore:
+- "Переключает крипера в"
+- "заряженное состояние"
+msg-button-fox-variant: "&aВыбрать вариант лисы"
+msg-button-fox-variant-lore:
+- "Меняет облик лисы"
+msg-button-fox-crouching: "&aПереключить позу при приседании"
+msg-button-fox-crouching-lore:
+- "Переключает лисe в"
+- "позу приседания"
+msg-button-fox-sleep: "&aПереключить позу для сна"
+msg-button-fox-sleep-lore:
+- "Переключает лису в"
+- "позу для сна"
+msg-button-mooshroom-variant: "&aВыбрать вариант мухомора"
+msg-button-mooshroom-variant-lore:
+- "Меняет внешний вид"
+- "мухомора"
+msg-button-panda-variant: "&aВыбрать вариант панды"
+msg-button-panda-variant-lore:
+- "Меняет внешний вид панды"
+msg-button-parrot-variant: "&aВыбрать вариант попугая"
+msg-button-parrot-variant-lore:
+- "Меняет внешний вид попугая"
+msg-button-pig-saddle: "&aПереключить седло свиньи"
+msg-button-pig-saddle-lore:
+- "Переключает седло свиньи"
+msg-button-sheep-color: "&aВыбрать цвет овцы"
+msg-button-sheep-color-lore:
+- "Меняет цвет"
+- "овечьей шерсти"
+msg-button-sheep-sheared: "&aВыбрать стриженную овцу"
+msg-button-sheep-sheared-lore:
+- "Переключает овечье"
+- "стриженное состояние"
+msg-button-villager-profession: "&aВыбрать профессию сельчанина"
+msg-button-villager-profession-lore:
+- "Меняет профессию"
+- "крестьянина"
+msg-button-villager-variant: "&aВыбрать вариант сельчанина"
+msg-button-villager-variant-lore:
+- "Меняет внешний вид"
+- "крестьянина"
+msg-button-villager-level: "&aВыбрать цвет значка жителя деревни"
+msg-button-villager-level-lore:
+- "Меняет цвет значка"
+- "крестьянина"
+msg-button-zombie-villager-profession: "&aВыбрать профессию сельчанина"
+msg-button-zombie-villager-profession-lore:
+- "Меняет профессию"
+- "зомби-крестьянина"
+msg-button-slime-size: "&aВыбрать размер слайма"
+msg-button-slime-size-lore:
+- "Циклически изменяет размер слизи"
+- "Текущий размер: &e {size}"
+msg-button-magma-cube-size: "&aВыбрать размер куба магмы"
+msg-button-magma-cube-size-lore:
+- "Циклически изменяет размер куба магмы"
+- "Текущий размер: &e {size}"
+
+msg-trading-title-prefix: "&2"
+msg-trading-title-default: "Лавочник"
+
+msg-container-selected: "&aХранилище выбрано! Щелкните по блоку правой кнопкой мыши, чтобы разместить продавца"
+msg-unsupported-container: "&7Этот тип хранилища нельзя использовать для магазинов"
+msg-must-select-container: "&7Вы должны щелкнуть по хранилищу правой кнопкой мыши перед тем, как разместить продавца"
+msg-invalid-container: "&7Выбранный блок не является допустимым хранилищем!"
+msg-container-too-far-away: "&7Хранилище продавца слишком далеко!"
+msg-container-not-Place: "&7Вы должны выбрать хранилище, который вы недавно разместили!"
+msg-container-already-in-use: "&7Другой продавец уже использует выбранное хранилище!"
+msg-no-container-access: "&7Вы не можете получить доступ к выбранному хранилищу!"
+msg-too-many-shops: "&7У вас слишком много магазинов!"
+msg-no-admin-shop-type-selected: "&7Вы должны выбрать тип магазина администратора!"
+msg-no-player-shop-type-selected: "&7Вы должны выбрать тип магазина игрока!"
+msg-shop-create-fail: "&7Вы не можете создать там продавца"
+
+msg-type-new-name: "&aПожалуйста, введите название магазина в чат \n&aВведите тире (-), чтобы удалить название"
+msg-name-set: "&aНазвание магазина установлено!"
+msg-name-has-not-changed: "&aНазвание магазина не изменилось"
+msg-name-invalid: "&aНеверное имя!"
+
+msg-shop-type-disabled: "&7Тип магазина '&6 {type} &7' отключен"
+msg-shop-object-type-disabled: "&7Тип объекта магазина '&6 {type} &7' отключен"
+
+msg-must-target-shop: "&7Вы должны выбрать продавца"
+msg-must-target-admin-shop: "&7Вы должны выбрать продавца-администратора"
+msg-must-target-player-shop: "&7Вы должны выбрать продавца игрока"
+msg-target-entity-is-no-shop: "&7Целевая сущность не является владельцем магазина"
+msg-target-shop-is-no-admin-shop: "&7 Целевой продавец не является администратором магазина"
+msg-target-shop-is-no-player-shop: "&7 Целевой владелец магазина не является владельцем магазина игрока"
+msg-unused-container: "&7Этот контейнер не использует продавец"
+msg-not-owner: "&7Вы не являетесь владельцем этого продавца"
+msg-owner-set: "&aНовый владелец был назначен &e {владелец}"
+msg-shop-creation-items-given: "&aИгрок &e {player} &a получил &e {amount} &товар (ы) для создания магазина!"
+msg-shop-creation-items-olated: "&aВы получили &e {amount} &товар (ы) для создания магазина!"
+msg-currency-items-given: "&aИгрок &e {player} &a получил &e {amount} &предмет (ы) валюты!"
+msg-currency-items-Received: "&aВы получили &e {amount} &предмет (ы) валюты!"
+msg-high-currency-items-given: "&aИгрок &e {player} &a получил &e {amount} &предмет (ы) в высокой валюте!"
+msg-high-currency-items-olated: "&aВы получили &e {amount} &предмет (ы) в высокой валюте!"
+msg-high-currency-disabled: "&cВысокая валюта отключена!"
+msg-items-convert: "&aКонвертация &e {count} &стек (ы) элементов!"
+msg-unknown-book-author: "Неизвестно"
+
+msg-trade-perm-set: "&aТорговое разрешение магазина установлено на '&e {perm} &a'!"
+msg-trade-perm-deleted: "&aТорговое разрешение магазина '&e {perm} &a' было удалено!"
+msg-trade-perm-view: "&aТекущее разрешение магазина на торговлю '&e {perm} &a'"
+
+msg-zombie-villager-curing-disabled: "&7Лечение жителей деревни-зомби отключено"
+msg-must-hold-rental-item: "&7Вы должны держать в руке требуемый предмет найма"
+msg-set-for-rental: "&aЛавочник был нанят"
+msg-hired: "&aВы наняли этого продавца!"
+msg-missing-найм-перм: "&7У вас нет разрешения нанимать лавочников"
+msg-cant-rental: "&7Вы не можете позволить себе нанять этого лавочника"
+msg-cant-rental-shop-type: "&7У вас нет разрешения нанимать такого типа продавца"
+msg-villager-for-найм: "&aСельский житель предложил свои услуги лавочника в обмен на &6 {затраты} x {наемный предмет} &a"
+
+msg-missing-trade-perm: "&7У вас нет разрешения торговать в этом магазине"
+msg-missing-custom-trade-perm: "&7У вас нет разрешения торговать в этом магазине"
+msg-cant-trade-with-own-shop: "&7Вы не можете торговать в собственном магазине"
+msg-cant-trade-while-owner-online: "&7Вы не можете торговать, пока владелец этого магазина ('&e {owner} &7') находится в сети"
+msg-cant-trade-with-shop-missing-container: "&7Вы не можете торговать с этим магазином, потому что его хранилище отсутствует"
+
+msg-shopkeeper-created: "&aShopkeeper создатель: &6 {type} &7 ({description}) \n {setupDesc}"
+
+msg-shop-setup-desc-sold: |-
+  &e Добавьте в контейнер товары, которые хотите продать, затем,
+  &e крадясь, щелкните магазин правой кнопкой мыши, чтобы изменить затраты
+msg-shop-setup-desc-Purchase: |-
+  &e Добавьте по одному экземпляру каждого товара, который хотите купить, в свой контейнер,
+  &e затем, щелкните магазин правой кнопкой мыши, чтобы изменить стоимость
+msg-shop-setup-desc-trading: |-
+  &e Добавьте в контейнер товары, которые хотите продать, затем,
+  &e крадясь, щелкните магазин правой кнопкой мыши, чтобы изменить затраты
+msg-shop-setup-desc-book: |-
+  &e Добавьте в контейнер записанные и пустые книги, затем,
+  &e крадясь, щелкните магазин правой кнопкой мыши, чтобы изменить затраты
+msg-shop-setup-desc-admin-regular: |-
+  &e Щелкните магазин правой кнопкой мыши, чтобы изменить сделки
+
+msg-trade-setup-desc-header: '&6 {shopType}'
+msg-trade-setup-desc-admin-regular:
+- Имеет неограниченный запас
+- Вставляйте предметы из своего инвентаря
+- "Верхняя строка: элементы результатов"
+- "Нижние строки: статьи затрат"
+msg-trade-setup-desc-sold:
+- Продает предметы игрокам
+- Поместите предметы для продажи в контейнер
+- Щелкните левой / правой кнопкой мыши, чтобы отрегулировать суммы
+- "Верхняя строка: продаваемые товары"
+- "Нижние строки: статьи затрат"
+msg-trade-setup-desc-buy:
+- Покупает предметы у игроков
+- Вставьте по одному из каждого элемента, который хотите
+- купить и много валюты
+- в контейнер
+- Щелкните левой / правой кнопкой мыши, чтобы настроить суммы
+- "Верхняя строка: статьи затрат"
+- "Нижняя строка: покупаемые товары"
+msg-trade-setup-desc-trading:
+- Обменивается предметами с игроками
+- Возьмите предмет из своего инвентаря
+- а затем щелкните слот, чтобы разместить его
+- Щелкните левой / правой кнопкой мыши, чтобы отрегулировать суммы
+- "Верхняя строка: элементы результатов"
+- "Нижние строки: статьи затрат"
+msg-trade-setup-desc-book:
+- Продает экземпляры книг
+- Вставляйте письменные и пустые книги
+- в контейнер
+- Щелкните левой / правой кнопкой мыши, чтобы настроить затраты
+- "Верхний ряд: продаваемые книги"
+- "Нижние строки: статьи затрат"
+
+msg-missing-edit-villagers-perm: "&7У вас нет разрешения на редактирование сельских жителей"
+msg-missing-edit-wandering-traders-perm: "&7У вас нет разрешения на редактирование странствующих трейдеров"
+msg-must-target-entity: "&7Вы должны нацелить объект"
+msg-must-target-villager: "&7Вы должны выбрать деревенского жителя"
+msg-target-entity-is-no-villager: "&7Целевая сущность - не обычный сельский житель"
+
+msg-villager-editor-title: "&aVillager Editor: &e {villagerName}"
+msg-villager-editor-description-header: "&6Villager Editor"
+msg-villager-editor-description:
+- "Верхняя строка: элементы результатов"
+- "Нижние строки: статьи затрат"
+- "Отредактированные сделки бесконечны"
+- "использует и не награждает XP"
+
+msg-button-delete-villager: "&4Удалить"
+msg-button-delete-villager-lore:
+- Удаляет селян
+msg-button-villager-inventory: "&aПросмотреть инвентарь сельского жителя"
+msg-button-villager-inventory-lore:
+- Позволяет просмотреть копию
+- инвентарь сельчанина
+msg-button-mob-ai: "&aПереключатель моб AI"
+msg-button-mob-ai-lore:
+- "Переключает AI моба"
+
+msg-villager-inventory-title: "Инвентарь сельского жителя (копия)"
+msg-set-villager-xp: "&aУстановить XP жителя &e {xp}"
+msg-no-villager-trades-changed: "&aНикакие сделки не были изменены"
+msg-villager-trades-changed: "&e {changedTrades} &сделки были изменены"
+
+msg-list-admin-shops-header: "&9Есть &e {shopsCount} &9adminshops: &e (Страница {page} из {maxPage})"
+msg-list-all-shops-header: "&9 Всего существует &e {shopsCount} &9 магазинов: &e (Страница {page} из {maxPage})"
+msg-list-player-shops-header: "&9Player '&e {player} &9' имеет &e {shopsCount} &9shops: &e (Страница {page} из {maxPage})"
+msg-list-shops-entry: "&e {shopId}) &7 {shopName} &r &8at &7 ({location}) &8, type: &7 {shopType} &8, object: &7 {objectType}"
+
+msg-deleted-admin-shops: "&e {shopsCount} &aadmin были удалены"
+msg-deleted-shops-of-player: "&e {shopsCount} &ashops игрока '&e {player} &a' были удалены"
+msg-deleted-player-shops: "&e {shopsCount} и магазины aplayer были удалены"
+
+msg-confirm-remove-all-admin-shops: "&cВы собираетесь безвозвратно удалить все административные магазины (&6 {shoppingCount} &c)!"
+msg-confirm-remove-all-own-shops: "&cВы собираетесь безвозвратно удалить все свои магазины (&6 {shopsCount} &c)!"
+msg-confirm-remove-all-shops-of-player: "&cВы собираетесь безвозвратно удалить все магазины player &6 {player} &c (&6 {shopsCount} &c)!"
+msg-confirm-remove-all-player-shops: "&cВы собираетесь безвозвратно удалить все магазины всех игроков (&6 {shopsCount} &c)!"
+
+msg-confirm-required: "&7Пожалуйста, подтвердите это действие, набрав &6 / shopkeepers confirm"
+msg-confirm-expired: "Срок действия &cподтверждения истекло"
+msg-ничего-для-подтверждения: "&cВ настоящее время нечего подтверждать"
+
+msg-no-permission: "&cУ вас нет на это разрешения"
+
+msg-command-unknown: "&cНеизвестная команда '&e {команда} &c'!"
+msg-command-argument-unknown: "&cНеожиданный аргумент '&e {аргумент} &c'"
+msg-command-argument-requires-player: "&cАргумент '&e {argumentFormat} &c' требует, чтобы игрок выполнил команду"
+msg-command-argument-missing: "&cПропущенный аргумент '&e {argumentFormat} &c'"
+msg-command-argument-invalid: "&cНеверный аргумент '&e {аргумент} &c'"
+msg-command-player-argument-missing: "&cНет игрока, указанного для '&e {argumentFormat} &c'"
+msg-command-player-argument-invalid: "&cПроигрыватель не найден для '&e {аргумент} &c'"
+msg-command-shop-type-argument-invalid: "&cНеизвестный тип магазина '&e {аргумент} &c'"
+msg-command-shop-object-type-argument-invalid: "&cНеизвестный тип объекта магазина '&e {аргумент} &c'"
+msg-command-shopkeeper-argument-invalid: "&cНе найдено продавца для '&e {аргумент} &c'"
+msg-command-shopkeeper-argument-no-admin-shop: "&cShopkeeper '&e {argument} &c' не является администратором магазина"
+msg-command-shopkeeper-argument-no-player-shop: "&cShopkeeper '&e {аргумент} &c' не является владельцем магазина игрока"
+
+msg-ambiguous-player-name: "&cИмеется несколько совпадений для имени '&e {name} &c'!"
+msg-ambiguous-player-name-entry: "&c- '&e {name} &r &c' (&6 {uuid} &c)"
+msg-ambiguous-player-name-more: "&c- "
+
+msg-command-help-title: "&9 ***** &8 [&6Shopkeepers v {version} &8] &9 *****"
+msg-command-help-usage-format: "&e {использование}"
+msg-command-help-description-format: "&8- &3 {описание}"
+
+msg-command-description-shopkeeper: "Создает продавца"
+msg-command-description-help: "Показывает эту справочную страницу"
+msg-command-description-reload: "Перезагружает этот плагин"
+msg-command-description-debug: "Включает и выключает режим отладки"
+msg-command-description-list: "Список всех магазинов указанного игрока или всех магазинов администратора"
+msg-command-description-remove: "Удаляет все магазины для указанного игрока, всех игроков или все магазины администратора"
+msg-command-description-give: "Предоставляет указанным игрокам элементы для создания магазина"
+msg-command-description-give-currency: "Дает валюту указанному игроку"
+msg-command-description-convert-items: "Преобразует удерживаемые (или все) элементы в соответствии с форматом данных Spigot"
+msg-command-description-remote: "Удаленно открывает магазин (необязательно: для другого игрока)"
+msg-command-description-remote-edit: "Удаленно редактирует магазин"
+msg-command-description-transfer: "Передает право собственности на магазин"
+msg-command-description-settradeperm: "Устанавливает, удаляет (-) или отображает (?) разрешение на торговлю"
+msg-command-description-setforhire: "Выставляет на продажу один из ваших магазинов"
+msg-command-description-edit-villager: "Открывает редактор для целевого жителя"
